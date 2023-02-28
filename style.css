@@ -2,9 +2,72 @@ body{
     margin: 0;
     padding: 0;
     background-color: #84E1AD;
+
+}
+@font-face {
+    font-family: "Android";
+    src: url(./Material/fontes/idroid.otf);
 }
 /*Cabeçalho*/
 #logo{
     text-align: center;
+    font-family: "Android" ;
+    font-size: 50px;
+    color: white;
+    padding:100px;
+    padding-bottom: 10px;
+    padding-top: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+    
+
+    background-color: #1A5C38;
+
     background: -moz-linear-gradient(to bottom #3BD27F, #35BF73,#31AD68,#32B16A, #2C9D5E,#268751,#1D673D,#1A5C38 );
 }
+
+header > p{
+    background-color: #1A5C38;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    font-size: 20px;
+
+    padding-bottom: 133px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+   
+    
+}
+nav{
+    background-color: #1A5C38;
+    padding-bottom: 10px;
+}
+
+nav > a:hover{
+    
+    text-decoration: underline;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.37); 
+}
+
+nav > a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    border: 10px solid  #1A5C38  ;
+    border-radius: 4px;
+
+    margin-top: 0;
+
+    margin-left: 30px;
+
+}
+/*Conteudo Principal*/
+
+
+
