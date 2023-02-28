@@ -3,10 +3,11 @@ body{
     padding: 0;
     background-color: #84E1AD;
 
+
 }
 @font-face {
     font-family: "Android";
-    src: url(./Material/fontes/idroid.otf);
+    src: url(./fontes/idroid.otf);
 }
 /*Cabeçalho*/
 #logo{
@@ -70,7 +71,7 @@ nav > a{
 /*Conteudo Principal*/
 h2{
     text-align: center;
-    
+
 }
 
 
