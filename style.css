@@ -77,7 +77,7 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     padding-bottom: 0;
-    box-shadow: 1px 5px 10px 3px rgba(0, 0, 0, 0.432), -1px 5px 10px 3px rgba(0, 0, 0, 0.432);
+    box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.432), 0px 5px 5px 0px rgba(0, 0, 0, 0.432);
     
 }
 main > p{
@@ -127,16 +127,69 @@ article{
     width: 70%;
     margin: auto;
     padding: 20px;
-
-
+    box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.432), 0px 5px 5px 0px rgba(0, 0, 0, 0.432);
+    font-family: Arial, Helvetica, sans-serif;
    
 }
-div{
-    background-color:#C5EBD6;
-    padding: 20px;
-    border-radius: 20px;
-}
-
 article > p{
     margin-top: 0;
 }
+
+div{
+    background-color:#C5EBD6;
+    padding: 20px;
+    padding-top: 0 ;
+
+    border-radius: 0px 0px 20px 20px;
+    
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.24), -5px 0px 5px 0px rgba(0, 0, 0, 0.24);
+    margin-bottom: 30px;
+}
+
+div > p{
+    margin-top: 0;
+    padding: 15px;
+}
+
+div > ol {
+   list-style-type: none;
+
+}
+
+#h3{
+    background-color: #2FA866;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    margin: 5px 0px 0px 0px ;
+    border-radius: 20px 20px 0px 0px;
+}
+
+footer{
+    background-color: #268751;
+    padding: 10px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+footer > a {
+    font-family:Arial, Helvetica, sans-serif ;
+    text-decoration: none;
+    background-color: darkgray;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;   
+}
+
+footer > a:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;   
+
+}
+
+
+
