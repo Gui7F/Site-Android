@@ -150,7 +150,11 @@ div > p{
     margin-top: 0;
     padding: 15px;
 }
-
+div > p > a{
+    text-decoration: none;
+    color: #12b95d;
+    font-weight: bold;
+}
 div > ol {
    list-style-type: none;
 
