@@ -5,6 +5,12 @@ body{
 
 
 }
+:root{
+    --cor1:#31AD68;
+    --cor2:#268751;
+    --cor3: #1A5C38;
+
+}
 @font-face {
     font-family: "Android";
     src: url(./fontes/idroid.otf);
@@ -13,23 +19,18 @@ body{
 #logo{
     text-align: center;
     font-family: "Android" ;
-    font-size: 50px;
+    font-size:3em;
+    background-color: var(--cor3);
     color: white;
-    padding:100px;
     padding-bottom: 10px;
     padding-top: 100px;
     margin-bottom: 0;
     margin-top: 0;
-    
-    
-
-    background-color: #1A5C38;
-
-    background: -moz-linear-gradient(to bottom #3BD27F, #35BF73,#31AD68,#32B16A, #2C9D5E,#268751,#1D673D,#1A5C38 );
+    margin: auto;   
 }
 
 header > p{
-    background-color: #1A5C38;
+    background-color:var(--cor3);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -40,6 +41,7 @@ header > p{
 
     margin-top: 0;
     margin-bottom: 0;
+    margin: auto;
 
    
     
@@ -50,8 +52,9 @@ nav{
 }
 
 nav > a:hover{
-    
-    text-decoration: underline;
+    background-color: #00d660;
+    color: #0d3820;
+    transition-duration: 0.7s;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.37); 
 }
 
@@ -60,19 +63,18 @@ nav > a{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
-    border: 10px solid  #1A5C38  ;
     border-radius: 4px;
 
     margin-top: 0;
 
-    margin-left: 30px;
+    padding: 10px;
 
 }
 /*Conteudo Principal*/
 main{
     background-color: white;
     margin-top: 0;
-    width:70% ;
+    max-width: 800px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
@@ -122,16 +124,14 @@ iframe{
 
 /*Footer*/
 
-article{
+aside{
     background-color: white;
-    width: 70%;
     margin: auto;
     padding: 20px;
-    box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.432), 0px 5px 5px 0px rgba(0, 0, 0, 0.432);
     font-family: Arial, Helvetica, sans-serif;
    
 }
-article > p{
+aside > p{
     margin-top: 0;
 }
 
