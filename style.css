@@ -26,7 +26,8 @@ body{
     padding-top: 100px;
     margin-bottom: 0;
     margin-top: 0;
-    margin: auto;   
+    margin: auto;  
+    width: 100%; 
 }
 
 header > p{
@@ -82,8 +83,11 @@ main{
     box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.432), 0px 5px 5px 0px rgba(0, 0, 0, 0.432);
     
 }
-main > p{
+main  p{
     font-size: 18px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
 }
 strong{
     color: #12b95d;
@@ -111,14 +115,24 @@ h2{
 #mascote{
     display: block;
     margin: auto;
+    max-width: 350px;
 }
-iframe{
-    height: 440px;
+.video{
+  background-color: var(--cor2);
+  margin: 0px -20px 30px -20px;
+  border-radius: 0px;
+  padding-bottom: 59%;
+
+  position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
     width: 90%;
-    display: block;
-    margin: auto;
-    background-color: #268751;
-    padding: 20px 40px 20px 40px;
+    height: 90%;
+
 }
 
 
@@ -154,9 +168,14 @@ div > p > a{
     text-decoration: none;
     color: #12b95d;
     font-weight: bold;
+
+}
+a::after{
+    content: \1F517\00A0\;
 }
 div > ol {
    list-style-type: none;
+   columns: 2;
 
 }
 
@@ -194,6 +213,3 @@ footer > a:hover{
     border: 2px solid white;   
 
 }
-
-
-
